@@ -8,7 +8,7 @@ int main(){
   cout<<"enter the length of OTP: ";
   cin>>len;
   srand(time(NULL)); // For different values each time we run the code
-  for(int i=1;i<len;i++){
+  for(int i=0;i<len;i++){
    otp.push_back(str[rand() % n]);
   }
    cout<<" the otp generated is : "<<otp<<endl;
